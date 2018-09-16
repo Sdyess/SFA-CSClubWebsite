@@ -1,0 +1,191 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+@media (min-width: 992px) {
+    #main-nav {
+        border-color:transparent;
+        background-color: #330066;
+    }
+
+    #main-nav .navbar-brand {
+        color: rgba(255,255,255,.7)
+    }
+
+    #main-nav .navbar-brand:focus,#main-nav .navbar-brand:hover {
+        color: #fff
+    }
+
+    #main-nav .navbar-nav>li.nav-item>a.nav-link {
+        padding: .5rem 1rem
+    }
+
+    #main-nav .navbar-nav>li.nav-item>a.nav-link,#main-nav .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: rgba(255,255,255,.7)
+    }
+
+    #main-nav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#main-nav .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #fff
+    }
+
+    #main-nav.navbar-shrink {
+        border-bottom: 1px solid rgba(33,37,41,.1);
+        background-color: #fff
+    }
+
+    #main-nav.navbar-shrink .navbar-brand {
+        color: #f05f40
+    }
+
+    #main-nav.navbar-shrink .navbar-brand:focus,#main-nav.navbar-shrink .navbar-brand:hover {
+        color: #f05f40
+    }
+
+    #main-nav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,#main-nav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: #212529
+    }
+
+    #main-nav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#main-nav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #f05f40
+    }
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../images/parallax.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+header.masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+}
+
+header.masthead p {
+    font-weight: 300;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    header.masthead p {
+        font-size:1.15rem
+    }
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        height:100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    header.masthead h1 {
+        font-size: 3rem
+    }
+}
+
+@media (min-width: 1200px) {
+    header.masthead h1 {
+        font-size:4rem
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    color: white;
+}
+
+#navbar-logo {
+    height: 64px;
+    width: 200px;
+}
+
+#top-header {
+    background:url(../images/parallax.jpg) no-repeat fixed;
+    background-position: center;
+    
+}
+
+.bg-purple {
+    background-color: #330066;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: white !important;
+}
+.text-white {
+    color: white;
+}
+
+.jumbotron {
+    /* background-color: rgba(51,0,102,.4); */
+    /* background-color: rgba(255,255,255,.6) */
+    background-color: rgba(0,0,0, .4)
+}
+
+.jumbotron p, .jumbotron h1 {
+    filter: drop-shadow(2px 2px 1px #000000);
+    color: white !important;
+}
+
+.btn-landing {
+    color: #330066;
+    background-color: #ffffff;
+    border-color: #330066;
+}
+
+.btn-landing:hover {
+    color: #330066;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+div.bg-purple {
+    background-color: #61249d;
+    filter: drop-shadow(2px 2px 1px #000000);
+    color: white !important;
+    
+}
+
+.extra-padding-1 {
+    padding-top:0px;
+    padding-bottom:20px;
+}
+
+.extra-padding-2 {
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+.table td {
+    padding: 1.5rem;
+}
